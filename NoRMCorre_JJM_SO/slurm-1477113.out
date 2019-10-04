@@ -1,0 +1,24 @@
+The folder to search is
+msCam13short.avi
+MATLAB is selecting SOFTWARE OPENGL rendering.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2018 The MathWorks, Inc.
+              R2018a Update 6 (9.4.0.949201) 64-bit (glnxa64)
+                             September 5, 2018
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+msCam13short.avi
+Starting parallel pool (parpool) using the 'local' profile ...
+connected to 1 workers.
+{Undefined function or variable 'name'.
+
+Error in demo_1p_jjm_so3 (line 23)
+if ~exist(name,'file')  % download file if it doesn't exist in the directory
+
+Error in run (line 91)
+evalin('caller', strcat(script, ';'));
+} 

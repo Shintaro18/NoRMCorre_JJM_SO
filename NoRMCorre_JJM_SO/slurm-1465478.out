@@ -1,0 +1,16 @@
+/var/spool/slurmd/job1465478/slurm_script: line 18: cd: /home/sop5544/MATLAB/mc: No such file or directory
+/hpc/software/matlab/R2018a/bin/matlab-glselector.sh: line 27: 12225 Aborted                 (core dumped) $MATLAB/bin/$ARCH/need_softwareopengl $display > /dev/null 2>&1
+MATLAB is selecting SOFTWARE OPENGL rendering.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2018 The MathWorks, Inc.
+              R2018a Update 6 (9.4.0.949201) 64-bit (glnxa64)
+                             September 5, 2018
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+{Error using run (line 66)
+demo_1p_jjm_so2.m not found.
+} 

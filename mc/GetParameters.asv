@@ -1,0 +1,7 @@
+function matlab_param(param1, param2)
+
+disp(sprintf('param1 : %s', param1));
+disp(sprintf('param2 : %s', param2));
+name=param1;
+disp('aaa');
+end

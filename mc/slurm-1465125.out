@@ -1,0 +1,32 @@
+MATLAB is selecting SOFTWARE OPENGL rendering.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2018 The MathWorks, Inc.
+              R2018a Update 6 (9.4.0.949201) 64-bit (glnxa64)
+                             September 5, 2018
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+Starting parallel pool (parpool) using the 'local' profile ...
+
+{Error using gcp (line 49)
+Parallel pool failed to start with the following error. For more detailed
+information, validate the profile 'local' in the Cluster Profile Manager.
+
+Error in demo_1p_jjm_so2 (line 7)
+gcp;
+
+Error in run (line 91)
+evalin('caller', strcat(script, ';'));
+
+Caused by:
+    Error using parallel.internal.pool.InteractiveClient>iThrowWithCause (line
+    676)
+    Failed to start pool.
+        Error using parallel.Job/submit (line 351)
+        Error closing file
+        /home/sop5544/.matlab/local_cluster_jobs/R2018a/Job8.in.mat.
+        The file may be corrupt.
+} 
